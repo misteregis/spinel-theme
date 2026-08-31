@@ -1,0 +1,16 @@
+{
+  "name": "spinel-theme",
+  "displayName": "Spinel Theme",
+  "description": "Standalone Spinel and Spinel Light themes from Shopify's Ruby extension pack, without Ruby LSP or Sorbet.",
+  "version": "1.0.0",
+  "publisher": "misteregis",
+  "license": "MIT",
+  "engines": { "vscode": "^1.63.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      { "label": "Spinel", "uiTheme": "vs-dark", "path": "./themes/dark_spinel.json" },
+      { "label": "Spinel Light", "uiTheme": "vs", "path": "./themes/light_spinel.json" }
+    ]
+  }
+}
